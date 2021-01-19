@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon: Bookings</title>
+    <defs>
+        <filter x="-71.0%" y="-70.3%" width="247.1%" height="244.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.42745098   0 0 0 0 0.447058824   0 0 0 0 0.470588235  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chef's-Table-L" transform="translate(-970.000000, -11249.000000)">
+            <g id="STYLE-GUIDE" transform="translate(0.000000, 10850.000000)">
+                <g id="Icons" transform="translate(637.000000, 363.000000)">
+                    <g id="Icon:-Bookings" transform="translate(339.221557, 41.120128)" filter="url(#filter-1)">
+                        <g>
+                            <rect id="Rectangle" stroke="#F6EEDF" stroke-width="1.292544" x="0.646272" y="3.84577773" width="17.7292256" height="14.7049847" rx="1.938816"></rect>
+                            <path d="M4.4384129,0 C4.78859401,-6.4327226e-17 5.07247189,0.283877877 5.07247189,0.634058986 L5.07247189,3.19950573 L5.07247189,3.19950573 L3.80435391,3.19950573 L3.80435391,0.634058986 C3.80435391,0.283877877 4.08823179,6.4327226e-17 4.4384129,0 Z" id="Rectangle" fill="#F6EEDF"></path>
+                            <path d="M13.9492977,0 C14.2994788,-6.4327226e-17 14.5833567,0.283877877 14.5833567,0.634058986 L14.5833567,3.19950573 L14.5833567,3.19950573 L13.3152387,3.19950573 L13.3152387,0.634058986 C13.3152387,0.283877877 13.5991166,6.4327226e-17 13.9492977,0 Z" id="Rectangle-Copy" fill="#F6EEDF"></path>
+                            <line x1="0.951088479" y1="7.99876434" x2="18.0706811" y2="7.99876434" id="Line" stroke="#F6EEDF" stroke-width="1.292544" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

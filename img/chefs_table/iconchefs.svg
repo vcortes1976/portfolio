@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon: Chefs</title>
+    <defs>
+        <filter x="-71.0%" y="-70.3%" width="247.1%" height="244.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.42745098   0 0 0 0 0.447058824   0 0 0 0 0.470588235  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chef's-Table-L" transform="translate(-710.000000, -11324.000000)">
+            <g id="STYLE-GUIDE" transform="translate(0.000000, 10850.000000)">
+                <g id="Icons" transform="translate(637.000000, 363.000000)">
+                    <g id="Icon:-Chefs" transform="translate(79.257373, 115.988563)" filter="url(#filter-1)">
+                        <path d="M9.82791428,0.646272 C10.7092876,0.646272 11.5257883,0.926609463 12.1946102,1.40379381 C12.8838423,1.89554028 13.416639,2.59576208 13.7029369,3.41346799 C15.4319587,3.85686946 16.4486961,4.32501188 17.184107,5.07447743 C17.9209232,5.8253752 18.3754976,6.85857212 18.3754976,7.99876434 C18.3754976,9.09603636 17.9545275,10.0942183 17.2660667,10.8370757 C16.4478833,11.7199052 15.2518562,12.2423845 13.9374599,12.1386905 L13.9374599,12.1386905 L13.9370847,17.9044904 L5.7309569,18.5507624 L5.08430971,12.1386905 C3.76991335,12.2423845 2.57388628,11.7199052 1.75570292,10.8370757 C1.06724203,10.0942183 0.646272,9.09603636 0.646272,7.99876434 C0.646272,6.85126587 1.10669699,5.81213922 1.85191096,5.06005892 C2.59498946,4.31013377 3.62139934,3.84577773 4.75544239,3.84577773 L4.75544239,3.84577773 L5.77429799,3.93941902 L5.9435768,3.44298879 C6.22495847,2.61780359 6.75716334,1.91027861 7.44833109,1.41305749 C8.11944808,0.930260735 8.94082242,0.646272 9.82791428,0.646272 Z" id="Combined-Shape" stroke="#F6EEDF" stroke-width="1.292544"></path>
+                        <rect id="Rectangle" fill="#F6EEDF" x="6.34058986" y="11.5182206" width="1.26811797" height="5.75911032" rx="0.634058986"></rect>
+                        <rect id="Rectangle-Copy" fill="#F6EEDF" x="11.4130617" y="11.5182206" width="1.26811797" height="5.75911032" rx="0.634058986"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#F6EEDF" x="8.8768258" y="11.5182206" width="1.26811797" height="5.75911032" rx="0.634058986"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
