@@ -1,0 +1,138 @@
+/*
+Colors used:
+Purple: #6900FA
+Orange: #FA6900
+Grey: #5C5C5D
+White: #FFFFFF
+*/
+body {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #5C5C5D
+}
+
+#background {
+  background-color: #6900FA;
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  /*28pt*/
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.43em;
+  /*20pt*/
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #6900FA;
+}
+
+h3 {
+  font-size: 1.14em;
+  /*16pt*/
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+a:link {
+  color: #FA6900;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #FA6900;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #FA6900;
+}
+
+a:active {
+  color: #FA6900;
+  text-decoration: underline;
+}
+
+.button.header {
+  display: inline-block;
+  background-color: #6900FA;
+  color: #FA6900;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.button.header:hover,
+.button.header:focus {
+  color: #FA6900;
+  text-decoration: underline;
+}
+
+.button.header:visited {
+  color: #FA6900;
+}
+
+.button.header:active {
+  color: #FA6900;
+  text-decoration: underline;
+}
+
+.button.navigation {
+  color: #5C5C5D;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button.navigation:hover,
+.button.header:focus {
+  color: #6900FA;
+}
+
+.button.navigation:visited {
+  color: #5C5C5D;
+}
+
+.button.navigation:active {
+  color: #6900FA;
+}
+
+.button.cv {
+  background-color: #FA6900;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  /*rounded corners*/
+}
+
+.button.cv:hover,
+.button.header:focus {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.button.cv:visited {
+  color: #FFFFFF;
+}
+
+.button.cv:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
