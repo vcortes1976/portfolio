@@ -8,43 +8,36 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&family=Roboto:wght@400;500;700&family=Rock+Salt&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <a href="index.html" class="button header">VERONICA CORTES</a>
-        </div>
-        <div class="column">
-          <!-- to be repositioned -->
-          <img src="img/index/caricature1x.jpeg" alt="Header image">
-        </div>
-        <div class="column">
-          <nav>
-            <ul>
-              <li><a href="index.html">WORK</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </nav>
-        </div>
+    <div class="row">
+      <img src="img/index/caricature1x.jpeg" alt="Header image" class="logo">
+      <div class="column name">
+        <a href="index.html">VERONICA CORTES</a>
+      </div>
+      <div class="column navigation">
+        <nav>
+          <ul>
+            <li><a href="index.html">WORK</a></li>
+            <li><a href="about.html" class="active">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
 
   <main>
-    <div class="section hero">
-      <!-- 2 classes, one for section and one for hero which will help in styling -->
+    <div class="section">
       <div class="container">
         <div class="row">
-          <div class="column">
-            <h1>Hi! I'm <span>VERONICA</span>,<br>a UI/UX Designer<br>based in London....</h1>
+          <div class="column hero">
+            <p>Hi! I'm <span>VERONICA</span>,<br>a UI/UX Designer<br>based in London....</p>
           </div>
           <div class"column">
             <p>with a background in event management. I
@@ -64,9 +57,8 @@
             <p>I’m also a certified yoga teacher and co-founder
               of the Yoga Kind Collective.</p>
           </div>
-          <div class="column">
-            <!-- column for the text download button -->
-            <a href="files/vcortescv.pdf" class="button cv" target="_blank">DOWNLOAD MY CV</a>
+          <div class="column center">
+            <a href="files/vcortescv.pdf" class="button" target="_blank">VIEW FULL CV</a>
           </div>
         </div>
         <div class="row">
@@ -106,7 +98,7 @@
   <footer id="contact">
     <div class="container">
       <h2>GET IN TOUCH</h2>
-      <div class="row">
+      <div class="row social">
         <!-- replace placeholder images with icons-->
         <a href="tel:+447929823412" target="_blank">
           <svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

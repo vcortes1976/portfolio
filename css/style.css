@@ -4,6 +4,11 @@ Purple: #6900FA
 Orange: #FA6900
 Grey: #5C5C5D
 White: #FFFFFF
+Chefs_Table:
+Maroon hsla(341, 94%, 14%, 0.9)
+Green: hsla(161, 94%, 14%, 0.2)
+Grey: hsla(240, 1%, 36%, 0.2)
+Cream: #F6EEDF
 */
 body {
   background-color: #FFFFFF;
@@ -19,6 +24,35 @@ body {
   padding: 10px;
 }
 
+.concept {
+  background-color: hsla(341, 94%, 14%, 0.9);
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.process {
+  background-color: hsla(161, 94%, 14%, 0.2);
+  padding: 10px;
+}
+
+.search {
+  background-color: hsla(240, 1%, 36%, 0.2);
+}
+
+.book {
+  background-color: hsla(240, 1%, 36%, 0.2);
+}
+
+.rwd {
+  background-color: hsla(341, 94%, 14%, 0.9);
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.style {
+  background-color: #F6EEDF;
+}
+
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
@@ -26,8 +60,9 @@ h1, h2, h3 {
 h1 {
   font-size: 2em;
   /*28pt*/
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -46,93 +81,185 @@ h3 {
   line-height: 1.5;
 }
 
+.hero span {
+  font-family: 'Rock Salt', cursive;
+  font-size: 28px;
+  color: #FA6900;
+  letter-spacing: 0;
+}
+
+.hero p {
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+
 img {
   width: 100%;
 }
 
-a:link {
-  color: #FA6900;
-  text-decoration: none;
+.mockup {
+  width: 180px;
 }
 
-a:hover,
-a:focus {
+a {
   color: #FA6900;
-  text-decoration: underline;
 }
 
 a:visited {
   color: #FA6900;
 }
 
+a:hover,
+a:focus {
+  color: #6900FA;
+}
+
 a:active {
-  color: #FA6900;
-  text-decoration: underline;
-}
-
-.button.header {
-  display: inline-block;
-  background-color: #6900FA;
-  color: #FA6900;
-  font-weight: 500;
-  padding: 10px;
-}
-
-.button.header:hover,
-.button.header:focus {
-  color: #FA6900;
-  text-decoration: underline;
-}
-
-.button.header:visited {
-  color: #FA6900;
-}
-
-.button.header:active {
-  color: #FA6900;
-  text-decoration: underline;
-}
-
-.button.navigation {
-  color: #5C5C5D;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.button.navigation:hover,
-.button.header:focus {
   color: #6900FA;
 }
 
-.button.navigation:visited {
-  color: #5C5C5D;
+.link {
+  text-align: right;
 }
 
-.button.navigation:active {
-  color: #6900FA;
-}
-
-.button.cv {
+.button {
   background-color: #FA6900;
   color: #FFFFFF;
+  display: block;
   font-weight: 400;
   text-transform: uppercase;
   padding: 10px;
   border-radius: 10px;
   /*rounded corners*/
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.button.cv:hover,
-.button.header:focus {
-  color: #FFFFFF;
-  text-decoration: underline;
-}
-
-.button.cv:visited {
+.button:visited {
   color: #FFFFFF;
 }
 
-.button.cv:active {
+.button:hover,
+.button:focus {
+  color: #6900FA;
+}
+
+.button:active {
+  color: #6900FA;
+}
+
+.here {
   color: #FFFFFF;
-  text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+}
+
+.name {
+  background-color: #6900FA;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.name a {
+  text-decoration: none;
+}
+
+.name a:hover {
+  color: #FA6900;
+  font-weight: 600;
+}
+
+.name a:active {
+  color: #FA6900;
+}
+
+header .column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 10em;
+  border: 3px solid #FFFFFF;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+header .row {
+  position: relative;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: 110px;
+}
+
+nav a {
+  color: #5C5C5D;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #5C5C5D;
+}
+
+nav a:hover {
+  color: #6900FA;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #6900FA;
+  text-decoration: none;
+}
+
+.active {
+  color: #6900FA;
+  font-weight: 600;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.ykc {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #6900FA;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+footer h2 {
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.social a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+footer p {
+  font-size: 60%;
+  padding-top: 20px;
 }

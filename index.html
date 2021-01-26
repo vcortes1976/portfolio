@@ -8,96 +8,94 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&family=Roboto:wght@400;500;700&family=Rock+Salt&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <a href="index.html" class="button header">VERONICA CORTES</a>
-        </div>
-        <div class="column">
-          <!-- to be repositioned -->
-          <img src="img/index/caricature1x.jpeg" alt="Header image">
-        </div>
-        <div class="column">
-          <nav>
-            <ul>
-              <li><a href="index.html" class="button navigation:active">WORK</a></li>
-              <li><a href="about.html" class="button navigation">ABOUT</a></li>
-              <li><a href="#contact" class="button navigation">CONTACT</a></li>
-            </ul>
-          </nav>
-        </div>
+    <div class="row">
+      <img src="img/index/caricature1x.jpeg" alt="Header image" class="logo">
+      <div class="column name">
+        <a href="index.html">VERONICA CORTES</a>
+      </div>
+      <div class="column nav">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">WORK</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
 
   <main>
     <div class="section hero">
-      <!-- 2 classes, one for section and one for hero which will help in styling -->
       <div class="container">
         <div class="row">
           <div class="column">
-            <h1>Hi! I'm <span>VERONICA</span>,<br>a UI/UX Designer<br>based in London....</h1>
-            <div class="column">
-              <a href="about.html">Read more</a>
-            </div>
+            <p>Hi! I'm <span>VERONICA</span>,<br>a UI/UX Designer<br>based in London....</p>
+          </div>
+          <div class="column link">
+            <a href="about.html">Read more</a>
           </div>
         </div>
       </div>
-      <div class="section work">
-        <!-- 2 classes, one for section and one for work which will help in styling -->
-        <div class="container">
-          <div class="row">
-            <div class="column">
-              <h2>MY WORK</h2>
-              <picture>
-                <source srcset="img/index/chefscvr1x.jpeg" media="(max-width:767px)">
-                <img src="img/index/chefscvr2x.jpeg" alt="Project cover">
-              </picture>
-            </div>
-            <div class="column">
-              <h3>Chef's Table</h3>
-              <p>Chef’s Table is a responsive web app offering
-                expert recommendations from top chefs around
-                the world, from cheap eats to fine dining. This
-                case study showcases my user-centred design
-                process and responsive web designs.</p>
+    </div>
+
+    <div class="section work" id="work">
+      <div class="container">
+        <h2>MY WORK</h2>
+        <div class="row">
+          <div class="column chefs-table">
+            <picture>
+              <source srcset="img/index/chefscvr1x.jpeg" media="(max-width:767px)">
+              <img src="img/index/chefscvr2x.jpeg" alt="Project cover">
+            </picture>
+          </div>
+          <div class="column">
+            <h3>Chef's Table</h3>
+            <p>Chef’s Table is a responsive web app offering
+              expert recommendations from top chefs around
+              the world, from cheap eats to fine dining. This
+              case study showcases my user-centred design
+              process and responsive web designs.</p>
+            <div class="column link">
               <a href="chefs_table.html">View project</a>
             </div>
           </div>
-          <div class="row">
-            <div class="column">
-              <picture>
-                <source srcset="img/index/ykccvr1x.jpeg" media="(max-width:767px)">
-                <img src="img/index/ykccvr2x.jpeg" alt="Yoga Kind Collective cover">
-              </picture>
-            </div>
-            <div class="column">
-              <h3>Yoga Kind Collective</h3>
-              <p>As co-founder of the Collective, I designed a
-                mobile app to enable teachers to schedule and
-                promote yoga classes, and enable students to
-                book classes. This case study showcases my
-                designs following iOS and Material design
-                guidelines.
-              </p>
+        </div>
+        <div class="row">
+          <div class="column ykc">
+            <picture>
+              <source srcset="img/index/ykccvr1x.jpeg" media="(max-width:767px)">
+              <img src="img/index/ykccvr2x.jpeg" alt="Yoga Kind Collective cover">
+            </picture>
+          </div>
+          <div class="column">
+            <h3>Yoga Kind Collective</h3>
+            <p>As co-founder of the Collective, I designed a
+              mobile app to enable teachers to schedule and
+              promote yoga classes, and enable students to
+              book classes. This case study showcases my
+              designs following iOS and Material design
+              guidelines.
+            </p>
+            <div class="column link">
               <a href="#">View project</a>
             </div>
           </div>
         </div>
+      </div>
   </main>
 
   <footer id="contact">
     <div class="container">
       <h2>GET IN TOUCH</h2>
-      <div class="row">
+      <div class="row social">
         <a href="tel:+447929823412" target="_blank">
           <svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>Phone</title>
