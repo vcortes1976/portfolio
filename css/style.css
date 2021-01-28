@@ -10,6 +10,11 @@ Green: hsla(161, 94%, 14%, 0.2)
 Grey: hsla(240, 1%, 36%, 0.2)
 Cream: #F6EEDF
 */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
@@ -118,15 +123,12 @@ a:active {
   color: #6900FA;
 }
 
-.link {
-  text-align: right;
-}
-
 .button {
   background-color: #FA6900;
   color: #FFFFFF;
   display: block;
   font-weight: 400;
+  text-align: center;
   text-transform: uppercase;
   padding: 10px;
   border-radius: 10px;
@@ -153,10 +155,6 @@ a:active {
   color: #FFFFFF;
 }
 
-.center {
-  text-align: center;
-}
-
 .name {
   background-color: #6900FA;
   padding-top: 15px;
@@ -176,11 +174,6 @@ a:active {
   color: #FA6900;
 }
 
-header .column {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .logo {
   max-width: 120px;
   max-height: 120px;
@@ -189,23 +182,6 @@ header .column {
   position: absolute;
   right: 15px;
   top: 20px;
-}
-
-header .row {
-  position: relative;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-nav {
-  margin-top: 110px;
 }
 
 nav a {
@@ -232,14 +208,6 @@ nav a:active {
   font-weight: 600;
 }
 
-.container {
-  padding: 0 15px;
-}
-
-.ykc {
-  margin-top: 30px;
-}
-
 footer {
   background-color: #6900FA;
   color: #FFFFFF;
@@ -262,4 +230,41 @@ footer h2 {
 footer p {
   font-size: 60%;
   padding-top: 20px;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+header .row {
+  margin-top: 0px;
+  position: relative;/* how to fix header?*/
+}
+
+header .column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: 110px;
+}
+
+.link {
+  text-align: right;
 }
