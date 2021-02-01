@@ -11,6 +11,8 @@ Grey: hsla(240, 1%, 36%, 0.2)
 Cream: #F6EEDF
 */
 
+/* All pages */
+
 * {
   box-sizing: border-box;
 }
@@ -18,7 +20,7 @@ Cream: #F6EEDF
 body {
   background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: #5C5C5D
@@ -27,35 +29,6 @@ body {
 #background {
   background-color: #6900FA;
   padding: 10px;
-}
-
-.concept {
-  background-color: hsla(341, 94%, 14%, 0.9);
-  color: #FFFFFF;
-  padding: 10px;
-}
-
-.process {
-  background-color: hsla(161, 94%, 14%, 0.2);
-  padding: 10px;
-}
-
-.search {
-  background-color: hsla(240, 1%, 36%, 0.2);
-}
-
-.book {
-  background-color: hsla(240, 1%, 36%, 0.2);
-}
-
-.rwd {
-  background-color: hsla(341, 94%, 14%, 0.9);
-  color: #FFFFFF;
-  padding: 10px;
-}
-
-.style {
-  background-color: #F6EEDF;
 }
 
 h1, h2, h3 {
@@ -102,10 +75,6 @@ img {
   width: 100%;
 }
 
-.mockup {
-  width: 180px;
-}
-
 a {
   color: #FA6900;
 }
@@ -121,38 +90,6 @@ a:focus {
 
 a:active {
   color: #6900FA;
-}
-
-.button {
-  background-color: #FA6900;
-  color: #FFFFFF;
-  display: block;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px;
-  border-radius: 10px;
-  /*rounded corners*/
-  text-decoration: none;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.button:visited {
-  color: #FFFFFF;
-}
-
-.button:hover,
-.button:focus {
-  color: #6900FA;
-}
-
-.button:active {
-  color: #6900FA;
-}
-
-.here {
-  color: #FFFFFF;
 }
 
 .name {
@@ -187,6 +124,7 @@ a:active {
 nav a {
   color: #5C5C5D;
   text-decoration: none;
+  font-size: 70%;
 }
 
 nav a:visited {
@@ -207,6 +145,59 @@ nav a:active {
   color: #6900FA;
   font-weight: 600;
 }
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+/* Header */
+
+header {
+  position:fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+main {
+  padding-top: 231px;/* adjust height when header height reduced */
+}
+
+header .row {
+  margin-top: 0px;
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.15);
+  position: relative;/* how to fix header?*/
+}
+
+header .column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: 110px;
+  padding-bottom: 10px;
+}
+
+.link {
+  text-align: right;
+}
+
+/* Footer */
 
 footer {
   background-color: #6900FA;
@@ -232,40 +223,167 @@ footer p {
   padding-top: 20px;
 }
 
-/* Layout styling */
+/* About */
 
-.container {
-  padding: 0 15px;
+.button {
+  background-color: #FA6900;
+  color: #FFFFFF;
+  display: block;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  /*rounded corners*/
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.row {
-  margin: 25px 0;
+.button:visited {
+  color: #FFFFFF;
 }
 
-header .row {
-  margin-top: 0px;
-  box-shadow: 0px 10px 5px 0px rgba(50, 50, 50, 0.75);
-  position: relative;/* how to fix header?*/
+.button:hover,
+.button:focus {
+  color: #6900FA;
 }
 
-header .column {
-  padding-left: 15px;
-  padding-right: 15px;
+.button:active {
+  color: #6900FA;
 }
 
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
+/* Chefs Table */
+
+.concept {
+  background-color: hsla(341, 94%, 14%, 0.9);
+  color: #FFFFFF;
+  padding: 10px 10px 200px;
+}
+
+.here {
+  color: #FFFFFF;
+}
+
+.home1 {
+  margin-top: -250px;
+}
+
+.process {
+  background-color: hsla(161, 94%, 14%, 0.2);
+  padding: 10px;
+}
+
+.login-home {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
-nav {
-  margin-top: 110px;
+.login-home .column {
+  max-width: 33.33%;
+  padding: 0 10px;
+  text-align: center;
 }
 
-.link {
-  text-align: right;
+.login-home p {
+  font-size: 0.6em;
+}
+
+.login-home .copy {
+text-align: left;
+padding-top: 5em;
+}
+
+.search {
+  background-color: hsla(240, 1%, 36%, 0.2);
+  display: flex;
+}
+
+.search .column {
+  max-width: 33.33%;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.filter {
+  padding-top: 15px;
+}
+
+.search p {
+  font-size: 0.6em;
+}
+
+.search .copy {
+text-align: left;
+}
+
+.restaurant {
+  background-color: hsla(240, 1%, 36%, 0.2);
+  display: flex;
+}
+
+.restaurant .column {
+  max-width: 33.33%;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.restaurant p {
+  font-size: 0.6em;
+}
+
+.restaurant .copy {
+text-align: left;
+}
+
+.label {
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.book {
+  background-color: hsla(240, 1%, 36%, 0.2);
+  display: flex;
+}
+
+.book .column {
+  max-width: 25%;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.book p {
+  font-size: 0.6em;
+}
+
+.book .copy {
+text-align: left;
+}
+
+.rwd {
+  background-color: hsla(341, 94%, 14%, 0.9);
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.rwd .desktop {
+  max-width: 80%;
+  align-items: center;
+}
+
+.rwd .tablet {
+  max-width: 30%;
+}
+
+.rwd .mobile {
+  max-width: 15%;
+}
+
+.style {
+  background-color: #F6EEDF;
+  padding: 10px;
+}
+
+.style .logos {
+  display: flex;
+  text-align: center;
 }
