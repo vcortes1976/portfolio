@@ -267,6 +267,7 @@ footer p {
 .process {
   background-color: hsla(161, 94%, 14%, 0.2);
   padding: 10px;
+  margin: 0 15px;
 }
 
 .login-home {
