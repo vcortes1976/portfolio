@@ -288,6 +288,7 @@ footer p {
 
 .login-home .copy {
   text-align: center;
+  font-size: 80%;
 }
 
 .search {
@@ -317,6 +318,7 @@ max-width: 70%;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  font-size: 80%;
 }
 
 .restaurant {
@@ -345,6 +347,7 @@ padding-bottom: 10px;
 .restaurant .copy {
   text-align: center;
   padding: 0 10px;
+  font-size: 80%;
 }
 
 .book {
@@ -360,6 +363,7 @@ padding-bottom: 10px;
 .book .copy {
   text-align: center;
   padding: 0 10px;
+  font-size: 80%;
 }
 
 .booking {
