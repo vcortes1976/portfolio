@@ -10,9 +10,7 @@ Green: hsla(161, 94%, 14%, 0.2)
 Grey: hsla(240, 1%, 36%, 0.2)
 Cream: #F6EEDF
 */
-
 /* All pages */
-
 * {
   box-sizing: border-box;
 }
@@ -147,7 +145,6 @@ nav a:active {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -157,21 +154,22 @@ nav a:active {
 }
 
 /* Header */
-
 header {
-  position:fixed;
+  position: fixed;
   width: 100%;
   background-color: #FFFFFF;
 }
 
 main {
-  padding-top: 231px;/* adjust height when header height reduced */
+  padding-top: 231px;
+  /* adjust height when header height reduced */
 }
 
 header .row {
   margin-top: 0px;
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.15);
-  position: relative;/* how to fix header?*/
+  position: relative;
+  /* how to fix header?*/
 }
 
 header .column {
@@ -198,7 +196,6 @@ nav {
 }
 
 /* Footer */
-
 footer {
   background-color: #6900FA;
   color: #FFFFFF;
@@ -224,7 +221,6 @@ footer p {
 }
 
 /* About */
-
 .button {
   background-color: #FA6900;
   color: #FFFFFF;
@@ -254,7 +250,6 @@ footer p {
 }
 
 /* Chefs Table */
-
 .concept {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
@@ -275,112 +270,148 @@ footer p {
 }
 
 .login-home {
-  display: flex;
+  display: block;
 }
 
 .login-home .column {
-  max-width: 33.33%;
-  padding: 0 10px;
+  padding: 10px 10px;
   text-align: center;
 }
 
-.login-home p {
-  font-size: 0.6em;
+.login {
+  max-width: 70%;
+}
+
+.home {
+  max-width: 70%;
 }
 
 .login-home .copy {
-text-align: left;
-padding-top: 5em;
+  text-align: center;
 }
 
 .search {
   background-color: hsla(240, 1%, 36%, 0.2);
-  display: flex;
+  display: block;
 }
 
 .search .column {
-  max-width: 33.33%;
   padding: 10px 10px;
   text-align: center;
 }
 
-.filter {
-  padding-top: 15px;
+.grid {
+max-width: 70%;
 }
 
-.search p {
-  font-size: 0.6em;
+.map {
+max-width: 70%;
+}
+
+.filter {
+max-width: 70%;
 }
 
 .search .copy {
-text-align: left;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .restaurant {
   background-color: hsla(240, 1%, 36%, 0.2);
-  display: flex;
+  display: block;
 }
 
 .restaurant .column {
-  max-width: 33.33%;
   padding: 10px 10px;
   text-align: center;
 }
 
-.restaurant p {
-  font-size: 0.6em;
+.restaurant_profile {
+max-width: 70%;
+}
+
+.chefs_list {
+max-width: 70%;
+}
+
+.chefs_profile {
+max-width: 70%;
+padding-bottom: 10px;
 }
 
 .restaurant .copy {
-text-align: left;
-}
-
-.label {
-  margin-top: 180px;
-  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .book {
   background-color: hsla(240, 1%, 36%, 0.2);
-  display: flex;
+  display: block;
 }
 
 .book .column {
-  max-width: 25%;
   padding: 10px 10px;
   text-align: center;
 }
 
-.book p {
-  font-size: 0.6em;
+.book .copy {
+  text-align: center;
+  padding: 0 10px;
 }
 
-.book .copy {
-text-align: left;
+.booking {
+max-width: 70%;
+}
+
+.booking_selection {
+max-width: 70%;
+}
+
+.booking_confirmation {
+max-width: 70%;
+}
+
+.my_bookings {
+max-width: 70%;
+padding-bottom: 10px;
 }
 
 .rwd {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
   padding: 10px;
+  margin: 15px;
 }
 
-.rwd .desktop {
-  max-width: 80%;
-  align-items: center;
+.rwd .h3 {
+  padding-top: 10px;
+}
+
+.rwd .column {
+  text-align: center;
+  padding: 0 10px;
 }
 
 .rwd .tablet {
-  max-width: 30%;
+  max-width: 80%;
+  align-content: center;
 }
 
 .rwd .mobile {
-  max-width: 15%;
+  max-width: 30%;
 }
 
 .style {
   background-color: #F6EEDF;
-  padding: 10px;
+  padding: 10px 10px;
+  margin: 15px;
+}
+
+.style .column {
+  padding: 0 10px;
 }
 
 .style .logos {
