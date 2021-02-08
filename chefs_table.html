@@ -97,7 +97,7 @@
       <!--Mobile Screens-->
       <div class="container">
         <div class="row">
-          <div class="column">
+          <div class="column mobile">
             <h3>Mobile Design</h3>
           </div>
         </div>
@@ -141,23 +141,26 @@
                 ratings. Why not add your review and rating and
                 save your favourite restaurants by liking them!</p>
             </div>
+            <div class="row">
+              <div class="column col-md-6">
+                <p class="label">CHEFS LIST</p>
+                <img src="img/chefs_table/chefslist.png" class="chefs_list" alt="chefslist">
+              </div>
+              <div class="column col-md-6 extrapadding">
+                <p class="label">CHEF'S PROFILE</p>
+                <img src="img/chefs_table/chefs_profile.png" class="chefs_profile" alt="Chefs_profile">
+              </div>
+            </div>
           </div>
-          <div class="column col-md-6">
-            <p class="label">CHEFS LIST</p>
-            <img src="img/chefs_table/chefslist.png" class="chefs_list" alt="chefslist">
-          </div>
-          <div class="column col-md-6">
-            <p class="label">CHEF'S PROFILE</p>
-            <img src="img/chefs_table/chefs_profile.png" class="chefs_profile" alt="Chefs_profile">
-          </div>
+
         </div>
         <div class="row book">
           <div class="column col-md-3">
-            <p>BOOKING</p>
+            <p><br>BOOKING</p>
             <img src="img/chefs_table/book.png" class="booking" alt="Booking">
             <p class="copy">Book a table at your favourite restaurant.</p>
           </div>
-          <div class="column col-md-3">
+          <div class="column col-md-3 break">
             <p>BOOKING SELECTION</p>
             <img src="img/chefs_table/booking_selection.png" class="booking_selection" alt="Booking_selection">
             <p class="copy">Search and select from your current bookings.</p>
@@ -168,7 +171,7 @@
             <p class="copy">Need to cancel or update your booking? No problem!</p>
           </div>
           <div class="column col-md-3">
-            <p>MY BOOKINGS</p>
+            <p><br>MY BOOKINGS</p>
             <img src="img/chefs_table/mybookings.png" class="my_bookings" alt="My_bookings">
             <p class="copy">Want to make a repeat booking? Search your past bookings!</p>
           </div>
@@ -182,14 +185,12 @@
         <div class="row">
           <h3>Responsive Web Design</h3>
         </div>
-        <div class="row">
+        <div class="row flex">
           <div class="column col-md-4">
             <img src="img/chefs_table/mobile1x.jpeg" class="mobile" alt="Mobile">
-          </div>
-          <div class="column col-md-4">
             <img src="img/chefs_table/tablet1x.jpeg" class="tablet" alt="Tablet">
           </div>
-          <div class="column col-md-4">
+          <div class="column col-md-8">
             <img src="img/chefs_table/desktop1x.jpeg" class="desktop" alt="Desktop">
           </div>
         </div>
@@ -201,90 +202,18 @@
       <!--Style Guide-->
       <div class="container style">
         <div class="row">
-          <div class="column">
-            <h3>Style Guide</h3>
-          </div>
+          <h3>Style Guide</h3>
         </div>
         <div class="row">
-          <div class="column col-md-4">
+          <div class="column col-md-6">
             <h4>Colour palette</h4>
             <img src="img/chefs_table/color_palette.png" alt="Color_palette">
           </div>
-          <div class="column col-md-4">
-            <h4>Logos</h4>
-          </div>
-          <div class="column">
-            <div class="row">
-              <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>Primary logo</title>
-                <defs>
-                  <linearGradient x1="50%" y1="50%" x2="50%" y2="127.962891%" id="linearGradient-1">
-                    <stop stop-color="#036143" offset="0%"></stop>
-                    <stop stop-color="#013220" offset="100%"></stop>
-                  </linearGradient>
-                </defs>
-                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="Chefs-Table-L" transform="translate(-636.000000, -6375.000000)">
-                    <g id="STYLE-GUIDE" transform="translate(126.000000, 6229.000000)">
-                      <g id="Logo" transform="translate(509.600000, 107.994248)">
-                        <g id="Primary-logo" transform="translate(0.800000, 38.405752)">
-                          <circle id="Oval" fill="url(#linearGradient-1)" cx="39.2" cy="39.2" r="39.2"></circle>
-                          <path
-                            d="M40.18,8.232 C46.5809482,8.232 52.0263534,12.3231658 54.0439922,18.0332737 C62.0962547,18.1099532 68.6,24.661461 68.6,32.732 C68.6,40.5210554 62.5420172,46.8951931 54.8806564,47.3998083 L54.88,66.248 C54.88,66.6809912 54.5289912,67.032 54.096,67.032 L24.304,67.032 C23.8710088,67.032 23.52,66.6809912 23.52,66.248 L23.520344,47.3998742 C15.8585101,46.895748 9.8,40.5213944 9.8,32.732 C9.8,24.6134142 16.3814142,18.032 24.5,18.032 C25.1023943,18.032 25.6963257,18.0682343 26.2797334,18.1386424 C28.2663592,12.373903 33.739483,8.232 40.18,8.232 Z M32.928,43.512 L29.792,43.512 C29.5755044,43.512 29.4,43.6875044 29.4,43.904 L29.4,43.904 L29.4,60.76 C29.4,60.9764956 29.5755044,61.152 29.792,61.152 L29.792,61.152 L32.928,61.152 C33.1444956,61.152 33.32,60.9764956 33.32,60.76 L33.32,60.76 L33.32,43.904 C33.32,43.6875044 33.1444956,43.512 32.928,43.512 L32.928,43.512 Z M48.608,43.512 L45.472,43.512 C45.2555044,43.512 45.08,43.6875044 45.08,43.904 L45.08,43.904 L45.08,60.76 C45.08,60.9764956 45.2555044,61.152 45.472,61.152 L45.472,61.152 L48.608,61.152 C48.8244956,61.152 49,60.9764956 49,60.76 L49,60.76 L49,43.904 C49,43.6875044 48.8244956,43.512 48.608,43.512 L48.608,43.512 Z M40.768,43.512 L37.632,43.512 C37.4155044,43.512 37.24,43.6875044 37.24,43.904 L37.24,43.904 L37.24,60.76 C37.24,60.9764956 37.4155044,61.152 37.632,61.152 L37.632,61.152 L40.768,61.152 C40.9844956,61.152 41.16,60.9764956 41.16,60.76 L41.16,60.76 L41.16,43.904 C41.16,43.6875044 40.9844956,43.512 40.768,43.512 L40.768,43.512 Z"
-                            id="Combined-Shape" fill="#F6EEDF" opacity="0.15"></path>
-                          <text id="TABLE" font-family="NotoSerif-Bold, Noto Serif" font-size="17.64" font-weight="bold" fill="#F6EEDF">
-                            <tspan x="9.35067383" y="61.336">TABLE</tspan>
-                          </text>
-                          <text id="CHEFS" font-family="NotoSerif-Bold, Noto Serif" font-size="17.64" font-weight="bold" fill="#F6EEDF">
-                            <tspan x="9.68228516" y="37.032">CHEFS</tspan>
-                          </text>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-              <h5>Primary</h5>
-              <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <title>Marque</title>
-                <defs>
-                  <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="92.562934%" id="radialGradient-1">
-                    <stop stop-color="#024630" offset="0%"></stop>
-                    <stop stop-color="#057C5E" offset="100%"></stop>
-                  </radialGradient>
-                </defs>
-                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <g id="Chefs-Table-L" transform="translate(-800.000000, -6375.000000)">
-                    <g id="STYLE-GUIDE" transform="translate(126.000000, 6229.000000)">
-                      <g id="Logo" transform="translate(509.600000, 107.994248)">
-                        <g id="Marque" transform="translate(164.800000, 38.405752)">
-                          <circle id="Oval" stroke="#024630" stroke-width="0.616" fill="url(#radialGradient-1)" cx="39.0257778" cy="39.0257778" r="38.7177778"></circle>
-                          <path
-                            d="M40.0014222,8.19541333 C46.3737037,8.19541333 51.7947543,12.2681174 53.8035905,17.9525424 C61.8196848,18.0288737 68.2951111,24.5514906 68.2951111,32.5865244 C68.2951111,40.3412163 62.2636568,46.6871865 54.6359914,47.1891919 L54.6360889,64.76288 C54.6360889,65.8515437 53.7535526,66.73408 52.6648889,66.73408 L25.3866667,66.73408 C24.298003,66.73408 23.4154667,65.8515437 23.4154667,64.76288 L23.4155641,47.1891919 C15.7878987,46.6871865 9.75644444,40.3412163 9.75644444,32.5865244 C9.75644444,24.5040212 16.3086079,17.9518578 24.3911111,17.9518578 C24.9906308,17.9518578 25.5817307,17.9879073 26.1623614,18.057957 C28.1406776,12.3189481 33.5894983,8.19541333 40.0014222,8.19541333 Z M32.1863111,43.3186133 L30.2549333,43.3186133 C29.7106015,43.3186133 29.2693333,43.7598815 29.2693333,44.3042133 L29.2693333,44.3042133 L29.2693333,59.8946133 C29.2693333,60.4389452 29.7106015,60.8802133 30.2549333,60.8802133 L30.2549333,60.8802133 L32.1863111,60.8802133 C32.730643,60.8802133 33.1719111,60.4389452 33.1719111,59.8946133 L33.1719111,59.8946133 L33.1719111,44.3042133 C33.1719111,43.7598815 32.730643,43.3186133 32.1863111,43.3186133 L32.1863111,43.3186133 Z M47.7966222,43.3186133 L45.8652444,43.3186133 C45.3209126,43.3186133 44.8796444,43.7598815 44.8796444,44.3042133 L44.8796444,44.3042133 L44.8796444,59.8946133 C44.8796444,60.4389452 45.3209126,60.8802133 45.8652444,60.8802133 L45.8652444,60.8802133 L47.7966222,60.8802133 C48.3409541,60.8802133 48.7822222,60.4389452 48.7822222,59.8946133 L48.7822222,59.8946133 L48.7822222,44.3042133 C48.7822222,43.7598815 48.3409541,43.3186133 47.7966222,43.3186133 L47.7966222,43.3186133 Z M39.9914667,43.3186133 L38.0600889,43.3186133 C37.515757,43.3186133 37.0744889,43.7598815 37.0744889,44.3042133 L37.0744889,44.3042133 L37.0744889,59.8946133 C37.0744889,60.4389452 37.515757,60.8802133 38.0600889,60.8802133 L38.0600889,60.8802133 L39.9914667,60.8802133 C40.5357985,60.8802133 40.9770667,60.4389452 40.9770667,59.8946133 L40.9770667,59.8946133 L40.9770667,44.3042133 C40.9770667,43.7598815 40.5357985,43.3186133 39.9914667,43.3186133 L39.9914667,43.3186133 Z"
-                            id="Combined-Shape" fill="#F6EEDF"></path>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-              <h5>Marque</h5>
-            </div>
+          <div class="column col-md-6">
+            <h4>Text Style</h4>
+            <img src="img/chefs_table/typeface.png" alt="typeface">
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="column col-md-6">
-          <h4>Text Style</h4>
-        </div>
-        <div class="column">
-          <img src="img/chefs_table/typeface.png" alt="typeface">
-        </div>
-        <div class="column">
-          <h4>Icons</h4>
-          <img src="img/chefs_table/icons.png" alt="icons"><!-- insert image -->
-        </div>
-      </div>
   </main>
 
   <footer id="contact">

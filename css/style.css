@@ -156,7 +156,7 @@ nav a:active {
 }
 
 .row {
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .row::after {
@@ -267,7 +267,7 @@ footer p {
 .concept {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
-  padding: 10px 10px 200px;
+  padding: 10px 20px 200px;
 }
 
 .here {
@@ -295,6 +295,10 @@ footer p {
 
 .login {
   max-width: 70%;
+}
+
+.mobile {
+  padding: 0 10px;
 }
 
 .home {
@@ -371,7 +375,7 @@ footer p {
 }
 
 .book .column {
-  padding: 10px 10px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -425,12 +429,12 @@ footer p {
 
 .style {
   background-color: #F6EEDF;
-  padding: 10px 10px;
+  padding: 10px 20px;
   margin: 15px;
 }
 
 .style .column {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .style .logos {
@@ -484,6 +488,7 @@ footer p {
   .home1 picture {
     max-width: 400px;
     display: inline-block;
+    margin-top: -12em;
     margin-left: auto;
     margin-right: -15em;
   }
@@ -491,6 +496,38 @@ footer p {
   .home1 {
     text-align: center;
   }
+
+  .restaurant .extrapadding {
+    padding-top: 10em;
+  }
+
+  .restaurant .copy {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .rwd .flex {
+    display: flex;
+  }
+
+  .rwd .flex .column:first-child {
+    text-align: right;
+  }
+
+.rwd .flex .column:first-child img {
+  margin: 8px 0;
+  border: 3px solid #FFFFFF;
+}
+
+.rwd .flex .column:last-child img {
+  border: 3px solid #FFFFFF;
+}
+
+.rwd .flex .column:last-child {
+  display: flex;
+  align-items: center;
+}
 
   [class*="col-"] {
     float: left;
@@ -510,6 +547,18 @@ footer p {
 
   .col-md-5 {
     width: 41.66%;
+  }
+
+  .home1 picture {
+    max-width: 500px;
+    margin-top: -15em;
+    margin-left: auto;
+    margin-right: -20em;
+  }
+
+  .book .break p {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
