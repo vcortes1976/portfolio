@@ -185,7 +185,7 @@ header {
 }
 
 main {
-  padding-top: 229px;
+  padding-top: 150px;
   /* adjust height when header height reduced */
 }
 
@@ -210,9 +210,26 @@ nav ul {
   justify-content: space-between;
 }
 
+.navtoggle li:not(:last-child){
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  font-size: 20px;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+}
+
 nav {
-  margin-top: 110px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .link {
@@ -467,6 +484,14 @@ footer p {
     margin-right: 8em;
   }
 
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   main {
     padding-top: 129px;
   }
@@ -561,6 +586,7 @@ footer p {
     padding-left: 20px;
     padding-right: 20px;
   }
+
 }
 
 /* X-Large device - 1440px plus */
