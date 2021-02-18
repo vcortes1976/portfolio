@@ -203,10 +203,10 @@ header .column {
 
 nav ul {
   padding: 0;
-  margin: 0;
+  margin: 40px 0 0;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -220,6 +220,12 @@ nav ul {
 
 .navtoggle li .icon {
   font-size: 20px;
+  position: absolute;
+  top: 10px;
+}
+
+header .column.nav {
+  min-height: 50px;
 }
 
 .navtoggle.responsive li {
@@ -228,7 +234,6 @@ nav ul {
 }
 
 nav {
-  padding-bottom: 10px;
   padding-top: 10px;
 }
 
@@ -478,6 +483,8 @@ footer p {
 
   nav ul {
     justify-content: flex-start;
+    flex-direction: row;
+    margin: 0;
   }
 
   nav ul li {
