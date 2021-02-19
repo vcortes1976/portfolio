@@ -9,6 +9,8 @@ Maroon hsla(341, 94%, 14%, 0.9)
 Green: hsla(161, 94%, 14%, 0.2)
 Grey: hsla(240, 1%, 36%, 0.2)
 Cream: #F6EEDF
+YKC:
+Purple: hsla (253, 39%, 53%, 0.8)
 */
 /* All pages */
 * {
@@ -468,6 +470,17 @@ footer p {
 .style .logos {
   display: flex;
   text-align: center;
+}
+
+/* YKC */
+.discover {
+  background-color: hsla(253, 39%, 53%, 0.8);
+  color: #FFFFFF;
+  padding: 10px 20px 120px;
+}
+
+.mockup {
+  margin-top: -120px;
 }
 
 /* Medium device - 640px plus */
