@@ -17,16 +17,13 @@
 
   <header>
     <div class="row">
-      <img src="img/index/logo_vc.jpg" alt="Header image" class="logo">
-      <div class="column name">
-        <a href="index.html">VERONICA CORTES</a>
-      </div>
+      <img src="img/index/logo_vc.jpg" alt="Veronica Cortes logo" class="logo">
       <div class="column nav">
         <nav class="navtoggle" id="myNavtoggle">
           <ul>
-            <li><a href="index.html" class="active">WORK</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="index.html" class="active">MY WORK</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
@@ -39,10 +36,8 @@
       <div class="container">
         <div class="row">
           <div class="column">
-            <p>Hi! I'm <span>VERONICA</span>,<br>a UI/UX Designer based in London...</p>
-          </div>
-          <div class="column link">
-            <a href="about.html">Read more</a>
+            <p>Hi! I'm <span>VERONICA</span><br>a UI/UX Designer based in London...</p>
+              <a href="about.html" class="link">Find out more!</a>
           </div>
         </div>
       </div>
@@ -53,63 +48,65 @@
         <div class="row">
           <h2>MY WORK</h2>
         </div>
-        <div class="row chefs-table">
+        <div class="row">
           <div class="column col-md-6">
-            <picture>
-              <source srcset="img/index/chefscvr1x.jpeg" media="(max-width:767px)">
-              <img src="img/index/chefscvr2x.jpeg" alt="Project cover">
-            </picture>
+            <div class="image-box">
+              <picture>
+                <source srcset="img/index/chefscvr1x.jpg" media="(max-width:767px)">
+                <img src="img/index/chefscvr2x.jpg" alt="Chef's Table responsive web design project cover">
+              </picture>
+              <div class="info-popup">
+                <h3>CHEF'S TABLE</h3>
+                <p>Chef’s Table is a responsive web app offering
+                  expert recommendations from top chefs around
+                  the world, from cheap eats to fine dining. This
+                  case study showcases my user-centred design
+                  process and responsive web designs.</p>
+                <div class="column">
+                  <a href="chefs_table.html">View project</a>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="column col-md-6">
-            <h3>Chef's Table</h3>
-            <p>Chef’s Table is a responsive web app offering
-              expert recommendations from top chefs around
-              the world, from cheap eats to fine dining. This
-              case study showcases my user-centred design
-              process and responsive web designs.</p>
+            <div class="image-box">
+              <picture>
+                <source srcset="img/index/ykccvr1x.jpeg" media="(max-width:767px)">
+                <img src="img/index/ykccvr2x.jpeg" alt="Yoga Kind Collective mobile app design project cover">
+              </picture>
+              <div class="info-popup">
+                <h3>YOGA KIND COLLECTIVE</h3>
+                <p>As co-founder of the Collective, I designed a
+                  mobile app to enable teachers to schedule and
+                  promote yoga classes, and enable students to
+                  book classes. This case study showcases my
+                  designs following iOS and Material design
+                  guidelines.
+                </p>
+                <div class="column">
+                  <a href="ykc.html">View project</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="column link">
-            <a href="chefs_table.html">View project</a>
+          <div class="row">
+            <div class="column col-md-6">
+              <div class="image-box">
+                <picture>
+                  <source srcset="img/index/savecvr1x.jpg" media="(max-width:767px)">
+                  <img src="img/index/savecvr2x.jpg" alt="$ave responsive app design project cover">
+                </picture>
+                <div class="info-popup">
+                  <h3>$AVE</h3>
+                  <p>$ave is a money saving tool to help those less confident with managing their finances. Designed as a responsive web app, this case study also showcases simple brand development.</p>
+                  <div class="column">
+                    <a href="save.html">View project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row ykc">
-          <div class="column col-md-6">
-            <picture>
-              <source srcset="img/index/ykccvr1x.jpeg" media="(max-width:767px)">
-              <img src="img/index/ykccvr2x.jpeg" alt="Yoga Kind Collective cover">
-            </picture>
-          </div>
-          <div class="column col-md-6">
-            <h3>Yoga Kind Collective</h3>
-            <p>As co-founder of the Collective, I designed a
-              mobile app to enable teachers to schedule and
-              promote yoga classes, and enable students to
-              book classes. This case study showcases my
-              designs following iOS and Material design
-              guidelines.
-            </p>
-          </div>
-          <div class="column link">
-            <a href="ykc.html">View project</a>
-          </div>
-        </div>
-        <div class="row save">
-          <div class="column col-md-6">
-            <picture>
-              <source srcset="img/index/savecvr1x.jpg" media="(max-width:767px)">
-              <img src="img/index/savecvr2x.jpg" alt="Yoga Kind Collective cover">
-            </picture>
-          </div>
-          <div class="column col-md-6">
-            <h3>$ave</h3>
-            <p>$ave is a money saving tool to help those less confident with managing their finances. Designed as a responsive web app, this case study also showcases simple brand development.</p>
-          </div>
-          <div class="column link">
-            <a href="save.html">View project</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 
   <footer id="contact">
@@ -159,24 +156,6 @@
                 <path
                   d="M20.636,21.833 C20.636,20.045 21.459,18.979 23.036,18.979 C24.484,18.979 25.18,20.002 25.18,21.833 C25.18,23.666 25.18,28.512 25.18,28.512 L29.1,28.512 C29.1,28.512 29.1,23.864 29.1,20.456 C29.1,17.048 27.168,15.4 24.47,15.4 C21.771,15.4 20.636,17.502 20.636,17.502 L20.636,15.789 L16.858,15.789 L16.858,28.512 L20.636,28.512 C20.636,28.512 20.636,23.793 20.636,21.833"
                   id="Fill-23" fill="#6900FA"></path>
-              </g>
-            </g>
-          </svg>
-        </a>
-        <a href="https://www.behance.net/vcortes1976" target="_blank">
-          <svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <title>Behance</title>
-            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="Behance">
-                <path d="M19.031,38.061 L19.031,38.061 C8.52,38.061 -1.42108547e-14,29.541 -1.42108547e-14,19.031 C-1.42108547e-14,8.521 8.52,0 19.031,0 C29.541,0 38.061,8.521 38.061,19.031 C38.061,29.541 29.541,38.061 19.031,38.061" id="Fill-34"
-                  fill="#FFFFFF"></path>
-                <path
-                  d="M10.96,23.212 L10.96,19.659 L14.24,19.659 C14.813,19.665 15.256,19.74 15.572,19.885 C16.138,20.144 16.421,20.62 16.421,21.313 C16.421,22.133 16.129,22.687 15.545,22.977 C15.224,23.134 14.773,23.212 14.196,23.212 L10.96,23.212 Z M10.96,14.515 L13.859,14.515 C14.497,14.515 15.022,14.584 15.434,14.723 C15.911,14.922 16.15,15.332 16.15,15.952 C16.15,16.513 15.969,16.903 15.608,17.123 C15.248,17.343 14.778,17.453 14.199,17.453 L10.96,17.453 L10.96,14.515 Z M16.19,25.345 C16.768,25.225 17.27,25.002 17.696,24.676 C18.072,24.393 18.388,24.044 18.64,23.628 C19.035,23 19.232,22.293 19.232,21.503 C19.232,20.738 19.059,20.087 18.714,19.551 C18.367,19.014 17.854,18.622 17.174,18.375 C17.622,18.146 17.96,17.893 18.191,17.616 C18.602,17.122 18.808,16.467 18.808,15.654 C18.808,14.864 18.603,14.186 18.196,13.62 C17.519,12.698 16.367,12.225 14.743,12.201 L8.302,12.201 L8.302,25.526 L14.307,25.526 C14.983,25.526 15.612,25.466 16.19,25.345 L16.19,25.345 Z"
-                  id="Fill-35" fill="#6900FA"></path>
-                <path
-                  d="M23.33,18.097 C23.694,17.723 24.206,17.535 24.867,17.535 C25.476,17.535 25.985,17.712 26.396,18.065 C26.807,18.42 27.036,18.939 27.082,19.623 L22.643,19.623 C22.737,18.981 22.966,18.473 23.33,18.097 Z M21.489,24.648 C22.491,25.457 23.649,25.861 24.96,25.861 C26.549,25.861 27.785,25.382 28.667,24.423 C29.235,23.82 29.553,23.226 29.622,22.642 L26.992,22.642 C26.839,22.931 26.662,23.157 26.461,23.32 C26.094,23.621 25.618,23.772 25.031,23.772 C24.477,23.772 24.004,23.649 23.611,23.401 C22.963,23.004 22.62,22.31 22.58,21.322 L29.757,21.322 C29.769,20.471 29.741,19.819 29.672,19.366 C29.552,18.594 29.29,17.914 28.887,17.33 C28.44,16.666 27.872,16.179 27.183,15.872 C26.497,15.564 25.725,15.41 24.866,15.41 C23.423,15.41 22.248,15.866 21.343,16.777 C20.438,17.687 19.986,18.996 19.986,20.703 C19.986,22.525 20.487,23.84 21.489,24.648 L21.489,24.648 Z"
-                  id="Fill-36" fill="#6900FA"></path>
-                <polygon id="Fill-37" fill="#6900FA" points="21.803 14.312 27.594 14.312 27.594 12.967 21.803 12.967"></polygon>
               </g>
             </g>
           </svg>

@@ -3,6 +3,7 @@ Primary:
 Purple: #6900FA
 Orange: #FA6900
 Grey: #5C5C5D
+Light Grey: hsla(230, 1%, 36%, 0.2)
 White: #FFFFFF
 
 Chefs_Table:
@@ -56,7 +57,6 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   text-transform: uppercase;
-  color: #6900FA;
 }
 
 h3 {
@@ -79,6 +79,14 @@ h3 {
   font-size: 28px;
   letter-spacing: 4px;
   max-width: 100%;
+}
+
+.info-popup p {
+  font-size: 12px;
+}
+
+.info-popup .link {
+  font-size: 12px;
 }
 
 img {
@@ -110,38 +118,19 @@ img {
 }
 
 a {
-  color: #FA6900;
+  color: #6900FA;
 }
 
 a:visited {
-  color: #FA6900;
+  color: #6900FA;
 }
 
 a:hover,
 a:focus {
-  color: #6900FA;
+  color: #FA6900;
 }
 
 a:active {
-  color: #6900FA;
-}
-
-.name {
-  background-color: #6900FA;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.name a {
-  text-decoration: none;
-}
-
-.name a:hover {
-  color: #FA6900;
-  font-weight: 600;
-}
-
-.name a:active {
   color: #FA6900;
 }
 
@@ -156,27 +145,24 @@ a:active {
 }
 
 nav a {
-  color: #5C5C5D;
+  color: #6900FA;
   text-decoration: none;
   font-size: 70%;
 }
 
 nav a:visited {
-  color: #5C5C5D;
+  color: #6900FA;
 }
 
 nav a:hover {
-  color: #6900FA;
+  color: #FA6900;
   text-decoration: none;
+  font-weight: 600;
 }
 
 nav a:active {
-  color: #6900FA;
+  color: #FA6900;
   text-decoration: none;
-}
-
-.active {
-  color: #6900FA;
   font-weight: 600;
 }
 
@@ -198,11 +184,35 @@ nav a:active {
   display: table;
 }
 
+.image-box {
+  display: inline-block;
+  position: relative;
+}
+
+.info-popup {
+  text-align: center;
+  background-color: hsla(230, 1%, 36%, 0.9);
+  color: #FFFFFF;
+  padding: 15px;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.image-box:hover .info-popup {
+  opacity: 1;
+}
+
 /* Header */
 header {
   position: fixed;
   width: 100%;
   background-color: #FFFFFF;
+  z-index: 100;
 }
 
 main {
