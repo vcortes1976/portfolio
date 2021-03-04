@@ -41,11 +41,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 1.75em;
   /*28pt*/
-<<<<<<< Updated upstream
-  font-weight: 500;
-=======
   font-weight: 400;
->>>>>>> Stashed changes
   line-height: 1.5;
   text-transform: uppercase;
 }
@@ -81,12 +77,8 @@ h3 {
 
 .hero .link {
   font-size: 16px;
-<<<<<<< Updated upstream
-  color: #FA6900;
-=======
   color: #6900FA;
   letter-spacing: 1px;
->>>>>>> Stashed changes
 }
 
 .info-popup p {
@@ -96,14 +88,10 @@ h3 {
 
 .info-popup a {
   font-size: 0.875em;
-<<<<<<< Updated upstream
-  color: #FA6900;
-=======
   color: #FFFFFF;
   flex: 1;
   align-self: center;
   text-decoration: none;
->>>>>>> Stashed changes
 }
 
 img {
@@ -308,13 +296,8 @@ footer p {
 }
 
 .button {
-<<<<<<< Updated upstream
-  background-color: #FA6900;
-  color: #FFFFFF;
-=======
   background-color: #FFFFFF;
   color: #6900FA;
->>>>>>> Stashed changes
   display: block;
   font-weight: 400;
   text-align: center;
@@ -346,9 +329,6 @@ footer p {
 .concept {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
-<<<<<<< Updated upstream
-  padding: 10px 20px 200px;
-=======
   padding: 20px 20px 200px 20px;
 }
 
@@ -361,20 +341,14 @@ footer p {
 
 .home1 {
   text-align: center;
->>>>>>> Stashed changes
 }
 
 .here {
   color: #6900FA;
 }
 
-<<<<<<< Updated upstream
-.home1 {
-  margin-top: -240px;
-=======
 .ct_discover {
   margin-top: -50px;
->>>>>>> Stashed changes
 }
 
 .ct_define span {
@@ -736,11 +710,7 @@ footer p {
   .home1 picture {
     max-width: 400px;
     display: inline-block;
-<<<<<<< Updated upstream
-    margin-top: -12em;
-=======
     margin-top: -28em;
->>>>>>> Stashed changes
     margin-left: auto;
     margin-right: -15em;
   }
