@@ -37,34 +37,21 @@ body {
 h1 {
   font-size: 1.75em;
   /*28pt*/
-/* <<<<<<< Updated upstream
-  font-weight: 500;
-======= */
-  font-weight: 600;
   font-weight: 400;
-/* >>>>>>> Stashed changes */
   line-height: 1.5;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 1.5em;
-  /*24pt*/
+  font-size: 1.375em;
+  /*22pt*/
   font-weight: 500;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 h3 {
-  font-size: 1.43em;
-  /*20pt*/
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-h4 {
-  font-size: 1.14em;
-  /*16pt*/
+  font-size: 1.125em;
+  /*18pt*/
   font-weight: 500;
   line-height: 1.5;
 }
@@ -90,30 +77,20 @@ h4 {
 
 .hero .link {
   font-size: 16px;
-/* <<<<<<< Updated upstream
-  color: #6900FA;
-  color: #FA6900;
-======= */
   color: #6900FA;
   letter-spacing: 1px;
-/* >>>>>>> Stashed changes */
 }
 
 .info-popup span {
   font-size: 0.75em;
+  font-weight: 300;
 }
 
 .info-popup a {
-  font-size: 0.875em;
-/* <<<<<<< Updated upstream
-  color: #FFFFFF;
-  color: #FA6900;
-======= */
   color: #FFFFFF;
   flex: 1;
   align-self: center;
   text-decoration: none;
-/* >>>>>>> Stashed changes */
 }
 
 img {
@@ -207,6 +184,7 @@ nav a:active {
   left: 0px;
   top: 0px;
   right: 0px;
+  display: flex;
 }
 
 .image-box:hover .info-popup {
@@ -279,24 +257,16 @@ footer {
   background-color: #6900FA;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 30px;
-}
-
-footer h2 {
-  color: #FFFFFF;
-  padding: 10px;
 }
 
 .social a {
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 footer p {
   font-size: 60%;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* About */
@@ -318,21 +288,15 @@ footer p {
 }
 
 .button {
-/* <<<<<<< Updated upstream
-  background-color: #6900FA;
-  color: #FFFFFF;
-  background-color: #FA6900;
-  color: #FFFFFF;
-======= */
   background-color: #FFFFFF;
   color: #6900FA;
-/* >>>>>>> Stashed changes */
   display: block;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
+  border: 1px solid #6900FA;
   /*rounded corners*/
   text-decoration: none;
   margin-top: 30px;
@@ -341,13 +305,13 @@ footer p {
 }
 
 .button:visited {
-  color: #FFFFFF;
+  color: #6900FA;
 }
 
 .button:hover,
 .button:focus {
-  color: #6900FA;
-  opacity: 0.8;
+  color: #FFC65C;
+  font-weight: 600;
 }
 
 .button:active {
@@ -358,11 +322,7 @@ footer p {
 .concept {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
-/* <<<<<<< Updated upstream
-  padding: 20px;
-  padding: 10px 20px 200px;
-======= */
-  padding: 20px 20px 200px 20px;
+  padding: 20px 20px 200px;
 }
 
 .home1 picture {
@@ -374,20 +334,14 @@ footer p {
 
 .home1 {
   text-align: center;
-/* >>>>>>> Stashed changes */
 }
 
 .here {
   color: #6900FA;
 }
 
-/* <<<<<<< Updated upstream
-.home1 {
-  margin-top: -240px;
-======= */
 .ct_discover {
   margin-top: -50px;
-/* >>>>>>> Stashed changes */
 }
 
 .ct_define span {
@@ -622,10 +576,6 @@ footer p {
   padding-top: 20px;
 }
 
-.ykcstyle h4 {
-  text-align: left;
-}
-
 .ykcstyle .column p {
   text-align: left;
   font-size: 80%;
@@ -676,14 +626,7 @@ footer p {
 }
 
 /* Medium device - 640px plus */
-/* needs attention! all sitting behind logo */
 @media only screen and (min-width: 640px) {
-  h2 {
-    font-size: 2.375em;
-    font-weight: 500;
-    line-height: 1.5;
-  }
-
   nav a {
     font-size: 90%;
   }
@@ -746,24 +689,12 @@ footer p {
   .home1 picture {
     max-width: 400px;
     display: inline-block;
-/* <<<<<<< Updated upstream
-    margin-top: -12em;
-======= */
     margin-top: -28em;
-/* >>>>>>> Stashed changes */
     margin-left: auto;
   }
 
   .home1 {
     text-align: center;
-  }
-
-  .ct_discover h3 {
-    padding-left: 10px;
-  }
-
-  .ct_define h3 {
-    padding-left: 10px;
   }
 
   .restaurant .extrapadding {
