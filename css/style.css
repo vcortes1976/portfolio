@@ -1,7 +1,7 @@
 /*
 Primary:
 Purple: #6900FA
-Orange: #FA6900
+Orange: #FFC65C
 Grey: #5C5C5D
 Light Grey: hsla(230, 1%, 36%, 0.2)
 White: #FFFFFF
@@ -34,10 +34,6 @@ body {
   color: #5C5C5D;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Roboto', sans-serif;
-}
-
 h1 {
   font-size: 1.75em;
   /*28pt*/
@@ -47,23 +43,27 @@ h1 {
 }
 
 h2 {
-  font-size: 1.125em;
-  /*18pt*/
-  font-weight: 600;
+  font-size: 1.375em;
+  /*22pt*/
+  font-weight: 500;
   line-height: 1.5;
 }
 
 h3 {
-  font-size: 0.875em;
-  /*14pt*/
-  font-weight: 600;
+  font-size: 1.125em;
+  /*18pt*/
+  font-weight: 500;
   line-height: 1.5;
+}
+
+.header {
+  background-color: #6900FA
 }
 
 .hero span {
   font-family: 'Rock Salt', cursive;
   font-size: 28px;
-  color: #FA6900;
+  color: #6900FA;
   letter-spacing: 0;
   padding: 10px 0;
   display: inline-block;
@@ -81,7 +81,7 @@ h3 {
   letter-spacing: 1px;
 }
 
-.info-popup p {
+.info-popup span {
   font-size: 0.75em;
   font-weight: 300;
 }
@@ -129,23 +129,23 @@ img {
 }
 
 nav a {
-  color: #6900FA;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 70%;
 }
 
 nav a:visited {
-  color: #6900FA;
+  color: #FFFFFF;
 }
 
 nav a:hover {
-  color: #FA6900;
+  color: #FFC65C;
   text-decoration: none;
   font-weight: 600;
 }
 
 nav a:active {
-  color: #FA6900;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 600;
 }
@@ -209,7 +209,7 @@ header .row {
   margin-top: 0px;
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.15);
   position: relative;
-  /* how to fix header?*/
+  /* how to fix header*/
 }
 
 header .column {
@@ -241,7 +241,7 @@ nav ul {
 }
 
 header .column.nav {
-  min-height: 50px;
+  min-height: 64px;
 }
 
 .navtoggle.responsive li {
@@ -258,40 +258,33 @@ footer {
   background-color: #6900FA;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 30px;
-}
-
-footer h2 {
-  color: #FFFFFF;
-  padding: 10px;
 }
 
 .social a {
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 footer p {
   font-size: 60%;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* About */
 .about span {
   font-family: 'Rock Salt', cursive;
   font-size: 28px;
-  color: #FA6900;
+  color: #6900FA;
   letter-spacing: 0;
   padding: 10px 0;
   display: inline-block;
 }
 
 .about p {
-  font-size: 28px;
-  letter-spacing: 4px;
+  font-size: 21px;
+  letter-spacing: 1px;
   max-width: 100%;
+  margin-top: 0;
   margin-left: 10px;
 }
 
@@ -319,6 +312,7 @@ footer p {
 .button:hover,
 .button:focus {
   color: #FFC65C;
+  font-weight: 600;
 }
 
 .button:active {
@@ -329,7 +323,7 @@ footer p {
 .concept {
   background-color: hsla(341, 94%, 14%, 0.9);
   color: #FFFFFF;
-  padding: 20px 20px 200px 20px;
+  padding: 20px 20px 200px;
 }
 
 .home1 picture {
@@ -390,7 +384,7 @@ footer p {
 }
 
 .home {
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .login-home .copy {
@@ -583,10 +577,6 @@ footer p {
   padding-top: 20px;
 }
 
-.ykcstyle h4 {
-  text-align: left;
-}
-
 .ykcstyle .column p {
   text-align: left;
   font-size: 80%;
@@ -641,7 +631,6 @@ footer p {
 }
 
 /* Medium device - 640px plus */
-/* needs attention! all sitting behind logo */
 @media only screen and (min-width: 640px) {
 
   nav {
@@ -655,7 +644,7 @@ footer p {
   nav ul {
     justify-content: flex-start;
     flex-direction: row;
-    margin: 0;
+    margin: 10px;
   }
 
   nav ul li {
@@ -712,23 +701,10 @@ footer p {
     display: inline-block;
     margin-top: -28em;
     margin-left: auto;
-    margin-right: -15em;
   }
 
   .home1 {
     text-align: center;
-  }
-
-  .ct_discover {
-    margin-top: -120px;
-  }
-
-  .ct_discover h3 {
-    padding-left: 10px;
-  }
-
-  .ct_define h3 {
-    padding-left: 10px;
   }
 
   .restaurant .extrapadding {
