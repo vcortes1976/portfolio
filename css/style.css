@@ -168,6 +168,10 @@ nav a:active {
   display: table;
 }
 
+.after {
+  margin-top: 0;
+}
+
 .image-box {
   display: inline-block;
   position: relative;
@@ -237,7 +241,7 @@ nav ul {
 .navtoggle li .icon {
   font-size: 20px;
   position: absolute;
-  top: 10px;
+  top: 18px;
 }
 
 header .column.nav {
@@ -632,10 +636,6 @@ footer p {
 
 /* Medium device - 640px plus */
 @media only screen and (min-width: 640px) {
-
-  nav {
-    margin-top: 10px;
-  }
 
   nav a {
     font-size: 90%;
