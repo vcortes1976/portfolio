@@ -765,6 +765,15 @@ footer p {
     margin-right: -15em;
   }
 
+  /* portfolio */
+  .video {
+    align-items: center;
+  }
+
+  .casestudy .button {
+    max-width: 50%;
+  }
+
   .savings {
     text-align: center;
   }
@@ -831,6 +840,11 @@ footer p {
     margin-top: -16em;
     margin-left: auto;
     margin-right: -30em;
+  }
+
+  /* portfolio */
+  .video {
+    align-items: center;
   }
 
   .s_define {
