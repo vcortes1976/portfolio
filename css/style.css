@@ -228,10 +228,6 @@ nav a:active {
   display: table;
 }
 
-.after {
-  margin-top: 0;
-}
-
 .image-box {
   display: inline-block;
   position: relative;
@@ -254,6 +250,15 @@ nav a:active {
 
 .image-box:hover .info-popup {
   opacity: 1;
+}
+
+.work .col-md-6 {
+  margin-top: 0;
+  margin-bottom: -5px;
+}
+
+.second {
+  margin-top: -5px;
 }
 
 /* Header */
@@ -332,6 +337,10 @@ footer {
 .social a {
   text-decoration: none;
   padding: 0 20px;
+}
+
+footer h2 {
+  padding-bottom: 10px;
 }
 
 footer p {
@@ -575,30 +584,31 @@ footer p {
 }
 
 /* YKC */
-.discover {
-  background-color: hsla(253, 39%, 53%, 0.8);
-  color: #FFFFFF;
-  padding: 10px 20px 210px;
-}
-
 .discover span {
   font-weight: bold;
 }
 
 .ykchome picture {
-  max-width: 300px;
+  width: 280px;
   display: inline-block;
-  margin-top: -13em;
-  margin-left: auto;
 }
 
 .ykchome {
   text-align: center;
 }
 
+.define {
+  background-color: hsla(253, 39%, 53%, 0.8);
+  color: #FFFFFF;
+  padding: 10px;
+}
+
 .mockups {
-  padding-top: 90px;
-  padding-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .develop .column {
@@ -622,12 +632,20 @@ footer p {
   font-size: 80%;
 }
 
-.iosandroid {
-  display: block;
+.prototype .button {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
-.iosandroid .column {
+.iosandroid {
+  display: inline-block;
   text-align: center;
+  padding: 30px;
+}
+
+.android {
+  width: 90%;
 }
 
 .ykcstyle {
@@ -672,12 +690,13 @@ footer p {
 }
 
 .s_define .container {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 15px;
   margin-right: 15px;
   background-color: #242F66;
   color: #FFFFFF;
-  padding: 10px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .s_define span {
@@ -781,6 +800,10 @@ footer p {
     width: 75%
   }
 
+  .work .col-md-6 {
+    margin-bottom: -15px;
+  }
+
   /* Chefs Table */
   .home1 picture {
     max-width: 400px;
@@ -822,20 +845,24 @@ footer p {
 
   /* YKC */
   .ykchome picture {
-    max-width: 400px;
-    display: inline-block;
-    margin-top: -28em;
-    margin-left: auto;
-    margin-right: -15em;
+    float: right;
+    margin-top: -250px;
   }
 
   .define {
     margin-top: -220px;
   }
 
-  .mockups {
-    margin-left: 40px;
-    margin-right: 40px;
+  .prototype .button {
+    width: 60%;
+  }
+
+  .ios {
+    width: 65%;
+  }
+
+  .android {
+    width: 60%;
   }
 
   .ykcstyle img {
@@ -870,6 +897,7 @@ footer p {
   /* About */
   [class*="col-"] {
     float: left;
+    margin-top: -16px;
   }
 
   .button {
@@ -901,15 +929,6 @@ footer p {
     margin-top: -32em;
     margin-left: auto;
     margin-right: -24em;
-  }
-
-  /*YKC*/
-  .ykchome picture {
-    max-width: 400px;
-    display: inline-block;
-    margin-top: -30em;
-    margin-left: auto;
-    margin-right: -30em;
   }
 
   /*$ave*/
