@@ -390,21 +390,8 @@ footer p {
 }
 
 /* Chefs Table */
-.concept {
-  background-color: hsla(341, 94%, 14%, 0.9);
-  color: #FFFFFF;
-  padding: 20px 20px 200px;
-}
-
-.home1 picture {
-  max-width: 300px;
-  display: inline-block;
-  margin-top: -13em;
-  margin-left: auto;
-}
-
-.home1 {
-  text-align: center;
+.concept span {
+  font-weight: bold;
 }
 
 .here {
@@ -422,11 +409,6 @@ footer p {
 .ct_develop {
   background-color: hsla(240, 1%, 36%, 0.2);
   display: block;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.ct_deliver {
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -689,14 +671,12 @@ footer p {
   width: 90%;
 }
 
-.s_define .container {
+.s_define {
   margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
   background-color: #242F66;
   color: #FFFFFF;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .s_define span {
@@ -707,8 +687,6 @@ footer p {
   margin-top: 20px;
   background-color: hsla(230, 48%, 27%, 0.1);
   padding: 10px 20px;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .s_mobile .column {
@@ -764,6 +742,15 @@ footer p {
     display: none;
   }
 
+  .button {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .casestudy {
+    text-align: center;
+  }
+
   main {
     padding-top: 129px;
   }
@@ -805,17 +792,6 @@ footer p {
   }
 
   /* Chefs Table */
-  .home1 picture {
-    max-width: 400px;
-    display: inline-block;
-    margin-top: -28em;
-    margin-left: auto;
-  }
-
-  .home1 {
-    text-align: center;
-  }
-
   .restaurant .extrapadding {
     padding-top: 10em;
   }
@@ -885,15 +861,6 @@ footer p {
     ;
   }
 
-  .casestudy {
-    text-align: center;
-  }
-
-  .casestudy .button {
-    display: inline-block;
-    width: 50%;
-  }
-
   /* About */
   [class*="col-"] {
     float: left;
@@ -924,11 +891,16 @@ footer p {
   }
 
   /*Chefs Table*/
-  .home1 picture {
-    max-width: 500px;
-    margin-top: -32em;
+  .rwdmockup picture {
+    max-width: 80%;
+    display:inline-block;
     margin-left: auto;
-    margin-right: -24em;
+    margin-right: -180px;
+    margin-top: -215px;
+  }
+
+  .rwdmockup {
+    text-align: center;
   }
 
   /*$ave*/
@@ -945,12 +917,5 @@ footer p {
 
   .info-popup a {
     font-size: 1.375em;
-  }
-
-  .home1 picture {
-    max-width: 500px;
-    margin-top: -32em;
-    margin-left: auto;
-    margin-right: -30em;
   }
 }
