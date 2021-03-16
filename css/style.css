@@ -571,8 +571,8 @@ footer p {
 }
 
 .ykchome picture {
-  width: 280px;
   display: inline-block;
+  margin-top: 50px;
 }
 
 .ykchome {
@@ -580,17 +580,13 @@ footer p {
 }
 
 .define {
-  background-color: hsla(253, 39%, 53%, 0.8);
-  color: #FFFFFF;
+  background-color: #E2E0E5;
   padding: 10px;
 }
 
 .mockups {
   display: inline-block;
   text-align: center;
-  margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .develop .column {
@@ -608,53 +604,13 @@ footer p {
 
 .deliver .column {
   text-align: center;
-}
-
-.deliver .column p {
-  font-size: 80%;
+  padding: 20px 20px;
 }
 
 .prototype .button {
   display: inline-block;
   text-align: center;
   width: 100%;
-}
-
-.iosandroid {
-  display: inline-block;
-  text-align: center;
-  padding: 30px;
-}
-
-.android {
-  width: 90%;
-}
-
-.ykcstyle {
-  background-color: #FFFFFF;
-}
-
-.ykcstyle .row {
-  padding-top: 20px;
-}
-
-.ykcstyle .column p {
-  text-align: left;
-  font-size: 80%;
-}
-
-.ykcstyle span {
-  font-weight: bold;
-}
-
-.ykclogo {
-  max-width: 40%;
-}
-
-.ykctype {
-  text-align: left;
-  padding-right: 40px;
-  padding-bottom: 20px;
 }
 
 /* $ave */
@@ -820,29 +776,12 @@ footer p {
   }
 
   /* YKC */
-  .ykchome picture {
-    float: right;
-    margin-top: -250px;
-  }
-
-  .define {
-    margin-top: -220px;
-  }
-
   .prototype .button {
     width: 60%;
   }
 
-  .ios {
-    width: 65%;
-  }
-
-  .android {
-    width: 60%;
-  }
-
-  .ykcstyle img {
-    max-width: 40%;
+  .deliver p {
+    font-size: 0.875em;
   }
 
   /* $ave */
@@ -893,7 +832,7 @@ footer p {
   /*Chefs Table*/
   .rwdmockup picture {
     max-width: 80%;
-    display:inline-block;
+    display: inline-block;
     margin-left: auto;
     margin-right: -180px;
     margin-top: -215px;
@@ -901,6 +840,11 @@ footer p {
 
   .rwdmockup {
     text-align: center;
+  }
+
+  /*YKC*/
+  .ykchome img {
+    width: 80%;
   }
 
   /*$ave*/
