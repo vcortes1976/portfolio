@@ -570,18 +570,30 @@ footer p {
   font-weight: bold;
 }
 
-.ykchome picture {
-  display: inline-block;
-  margin-top: 50px;
-}
-
 .ykchome {
   text-align: center;
+}
+
+.ykchome picture {
+  display: inline-block;
+}
+
+.ykchome img {
+  width: 70%;
 }
 
 .define {
   background-color: #E2E0E5;
   padding: 10px;
+}
+
+.define picture {
+  display: inline-block;
+  text-align: center;
+}
+
+.define img {
+  width: 90%;
 }
 
 .mockups {
@@ -590,16 +602,32 @@ footer p {
 }
 
 .develop .column {
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.develop span {
+  font-weight: bold;
+}
+
+.develop picture {
+  display: inline-block;
+  text-align: center;
+}
+
+.develop img {
+  max-width: 90%;
+}
+
+.line {
+  border-bottom: 1px solid;
+  border-color: #E2E0E5;
 }
 
 .deliver {
-  background-color: #E2E0E5;
   display: block;
   margin-left: 15px;
   margin-right: 15px;
-  padding-top: 10px;
+  margin-top: 15px;
 }
 
 .deliver .column {
@@ -607,10 +635,26 @@ footer p {
   padding: 20px 20px;
 }
 
+.deliver img {
+  width: 90%;
+}
+
+.ios {
+  max-width: 70%;
+}
+
+.deliver h3 {
+  font-weight: bold;
+}
+
 .prototype .button {
   display: inline-block;
   text-align: center;
   width: 100%;
+}
+
+.ykcstyle h3 {
+  font-weight: bold;
 }
 
 /* $ave */
@@ -780,6 +824,14 @@ footer p {
     width: 60%;
   }
 
+  .define img {
+    width: 80%;
+  }
+
+  .develop img {
+    max-width: 70%;
+  }
+
   .deliver p {
     font-size: 0.875em;
   }
@@ -843,8 +895,16 @@ footer p {
   }
 
   /*YKC*/
-  .ykchome img {
-    width: 80%;
+  .define img {
+    max-width: 70%;
+  }
+
+  .develop img {
+    max-width: 60%;
+  }
+
+  .ios {
+    max-width: 50%;
   }
 
   /*$ave*/
@@ -861,5 +921,14 @@ footer p {
 
   .info-popup a {
     font-size: 1.375em;
+  }
+
+  /*YKC*/
+  .develop img {
+    max-width: 50%;
+  }
+
+  .deliver img {
+    max-width: 50%;
   }
 }
