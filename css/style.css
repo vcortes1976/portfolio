@@ -683,14 +683,44 @@ footer p {
   font-weight: bold;
 }
 
-.s_develop .container {
+.s_develop span {
+  font-weight: bold;
+}
+
+.userflow {
+  padding: 10px;
+}
+
+.test {
   margin-top: 20px;
   background-color: hsla(230, 48%, 27%, 0.1);
   padding: 10px 20px;
 }
 
+.test .column {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.test img {
+  max-width: 70%;
+}
+
 .s_mobile .column {
   text-align: center;
+}
+
+.wireframes .column {
+  padding: 10px 5px;
+}
+
+.wireframes {
+  margin: 0 10px;
+}
+
+.brand .column {
+  padding: 0 5px;
 }
 
 /* My Web Portfolio */
@@ -742,13 +772,16 @@ footer p {
     display: none;
   }
 
-  .button {
-    display: inline-block;
-    width: 50%;
+  .prototype {
+    text-align: center;
   }
 
-  .casestudy {
-    text-align: center;
+  .button {
+    display: inline-block;
+  }
+
+  .prototype .button {
+    width: 60%;
   }
 
   main {
@@ -820,10 +853,6 @@ footer p {
   }
 
   /* YKC */
-  .prototype .button {
-    width: 60%;
-  }
-
   .define img {
     width: 80%;
   }
@@ -837,10 +866,6 @@ footer p {
   }
 
   /* $ave */
-  .s_develop picture {
-    max-width: 90%;
-  }
-
   /* portfolio */
   .myweb .col-md-6 {
     padding-left: 0;
@@ -911,6 +936,36 @@ footer p {
   .s_discover img {
     width: 60%;
   }
+
+  .userflow {
+    text-align: center;
+  }
+
+  .userflow img {
+    max-width: 70%;
+  }
+
+  .test img {
+    max-width: 50%;
+  }
+
+  .wireframes {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+  }
+
+  .s_rwd img {
+    max-width: 70%;
+  }
+
+  .s_rwd {
+    text-align: center;
+  }
+
+  .brand {
+    margin-bottom: 20px;
+  }
 }
 
 /* X-Large device - 1440px plus */
@@ -930,5 +985,20 @@ footer p {
 
   .deliver img {
     max-width: 50%;
+  }
+
+  /*$ave*/
+  .userflow img {
+    max-width: 60%;
+  }
+
+  .wireframes {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+
+  .s_rwd img {
+    max-width: 60%;
   }
 }
