@@ -858,6 +858,14 @@ footer p {
     align-items: center;
   }
 
+  .login {
+    max-width: 50%;
+  }
+
+  .home {
+    max-width: 50%;
+  }
+
   /* YKC */
   .define img {
     width: 80%;
