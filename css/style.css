@@ -178,7 +178,7 @@ nav a:active {
 }
 
 .button {
-  background-color: #FFFFFF;
+  background-color: #FFC65C;
   color: #6900FA;
   display: block;
   font-weight: 400;
@@ -186,7 +186,7 @@ nav a:active {
   text-transform: uppercase;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #6900FA;
+  border-color: transparent;
   /*rounded corners*/
   text-decoration: none;
   margin-top: 30px;
@@ -203,7 +203,7 @@ nav a:active {
   color: #6900FA;
   background-color: #FFC65C;
   font-weight: 600;
-  border: none;
+  border: 1px solid #6900FA;
 }
 
 .button:active {
@@ -432,11 +432,11 @@ footer p {
 }
 
 .login {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .home {
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .login-home .copy {
@@ -636,7 +636,7 @@ footer p {
 }
 
 .deliver img {
-  width: 90%;
+  width: 70%;
 }
 
 .ios {
@@ -647,7 +647,13 @@ footer p {
   font-weight: bold;
 }
 
-.prototype .button {
+.cvbutton .button {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.primary .button {
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -772,16 +778,16 @@ footer p {
     display: none;
   }
 
-  .prototype {
+  .primary {
+    text-align: center;
+  }
+
+  .cvbutton {
     text-align: center;
   }
 
   .button {
     display: inline-block;
-  }
-
-  .prototype .button {
-    width: 70%;
   }
 
   main {
@@ -886,6 +892,10 @@ footer p {
   .button {
     max-width: 100%
   }
+
+  .primary .button {
+    width: 60%;
+  }
 }
 
 /* Large device - 1024px plus */
@@ -904,6 +914,10 @@ footer p {
 
   .info-popup a {
     font-size: 1.125em;
+  }
+
+  .primary .button {
+    width: 40%;
   }
 
   /*Chefs Table*/
