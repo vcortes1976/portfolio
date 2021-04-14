@@ -252,11 +252,6 @@ nav a:active {
   opacity: 1;
 }
 
-.work .col-md-6 {
-  margin-top: 0;
-  margin-bottom: -5px;
-}
-
 .second {
   margin-top: -5px;
 }
@@ -754,6 +749,16 @@ footer p {
   text-align: center;
 }
 
+/*Less But More*/
+.less_but_better {
+  display: block;
+}
+
+.less_but_better .column {
+  padding: 20px 10px;
+  text-align: center;
+}
+
 /* Medium device - 640px plus */
 @media only screen and (min-width: 640px) {
   nav a {
@@ -826,10 +831,6 @@ footer p {
     width: 75%
   }
 
-  .work .col-md-6 {
-    margin-bottom: -15px;
-  }
-
   /* Chefs Table */
   .restaurant .extrapadding {
     padding-top: 10em;
@@ -895,6 +896,8 @@ footer p {
   [class*="col-"] {
     float: left;
     margin-top: -16px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .button {
