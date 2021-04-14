@@ -354,7 +354,7 @@ footer p {
 }
 
 .about p {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   max-width: 100%;
   margin-top: 0;
   margin-left: 10px;
@@ -893,6 +893,10 @@ footer p {
   }
 
   /* About */
+  .about p {
+    letter-spacing: 3px;
+  }
+
   [class*="col-"] {
     float: left;
     margin-top: -16px;
@@ -990,6 +994,11 @@ footer p {
 
   .brand {
     margin-bottom: 20px;
+  }
+
+  /* About */
+  .about p {
+    letter-spacing: 4px;
   }
 }
 
