@@ -996,12 +996,6 @@ footer p {
   .brand {
     margin-bottom: 20px;
   }
-
-  /* About */
-  .about p {
-    letter-spacing: 4px;
-    line-height: inherit;
-  }
 }
 
 /* X-Large device - 1440px plus */
