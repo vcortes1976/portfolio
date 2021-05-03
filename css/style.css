@@ -355,6 +355,7 @@ footer p {
 
 .about p {
   letter-spacing: 2px;
+  line-height: inherit;
   max-width: 100%;
   margin-top: 0;
   margin-left: 10px;
@@ -999,6 +1000,7 @@ footer p {
   /* About */
   .about p {
     letter-spacing: 4px;
+    line-height: inherit;
   }
 }
 
