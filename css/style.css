@@ -1,6 +1,6 @@
 /*
 Primary:
-Purple: #6900FA
+Purple: #6E5AB6
 Orange: #FFC65C
 Grey: #5C5C5D
 Light Grey: hsla(230, 1%, 36%, 0.2)
@@ -68,16 +68,27 @@ h4 {
 }
 
 .header {
-  background-color: #6900FA
+  background-color: #FFFFFF
+}
+
+.header h1 {
+  padding-left: 90px;
+  padding-top: 15px;
+  color: #6E5AB6;
 }
 
 .hero span {
   font-family: 'Rock Salt', cursive;
   font-size: 28px;
-  color: #6900FA;
+  color: #6E5AB6;
   letter-spacing: 0;
   padding: 10px 0;
   display: inline-block;
+}
+
+.hero h1 {
+  font-size: 3.875em;
+  color: #6E5AB6;
 }
 
 .hero p {
@@ -88,12 +99,12 @@ h4 {
 
 .hero a {
   font-size: 16px;
-  color: #6900FA;
+  color: #6E5AB6;
   letter-spacing: 1px;
 }
 
 .hero a:visited {
-  color: #6900FA;
+  color: #6E5AB6;
 }
 
 .hero a:hover {
@@ -148,21 +159,21 @@ video {
 }
 
 .logo {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 50px;
+  max-height: 50px;
   position: absolute;
-  right: 15px;
-  top: 20px;
+  top: 10px;
+  left:20px;
 }
 
 nav a {
-  color: #FFFFFF;
+  color: #6E5AB6;
   text-decoration: none;
   font-size: 70%;
 }
 
 nav a:visited {
-  color: #FFFFFF;
+  color: #6E5AB6;
 }
 
 nav a:hover {
@@ -179,7 +190,7 @@ nav a:active {
 
 .button {
   background-color: #FFC65C;
-  color: #6900FA;
+  color: #6E5AB6;
   display: block;
   font-weight: 400;
   text-align: center;
@@ -195,15 +206,15 @@ nav a:active {
 }
 
 .button:visited {
-  color: #6900FA;
+  color: #6E5AB6;
 }
 
 .button:hover,
 .button:focus {
-  color: #6900FA;
+  color: #6E5AB6;
   background-color: #FFC65C;
   font-weight: 600;
-  border: 1px solid #6900FA;
+  border: 1px solid #6E5AB6;
 }
 
 .button:active {
@@ -270,8 +281,7 @@ main {
 }
 
 header .row {
-  margin-top: 0px;
-  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.15);
+  margin-top: 15px;
   position: relative;
   /* how to fix header*/
 }
@@ -295,7 +305,8 @@ nav ul {
 }
 
 .navtoggle, .navtoggle.responsive {
-  position: relative;
+  position: absolute;
+  right: 40px;
 }
 
 .navtoggle li .icon {
@@ -324,7 +335,7 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #6900FA;
+  background-color: #6E5AB6;
   color: #FFFFFF;
   text-align: center;
 }
@@ -347,7 +358,7 @@ footer p {
 .about span {
   font-family: 'Rock Salt', cursive;
   font-size: 28px;
-  color: #6900FA;
+  color: #6E5AB6;
   letter-spacing: 0;
   padding: 10px 0;
   display: inline-block;
@@ -363,12 +374,12 @@ footer p {
 
 .about a {
   font-size: 16px;
-  color: #6900FA;
+  color: #6E5AB6;
   letter-spacing: 1px;
 }
 
 .about a:visited {
-  color: #6900FA;
+  color: #6E5AB6;
 }
 
 .about a:hover {
@@ -382,7 +393,7 @@ footer p {
 }
 
 .about .button:hover {
-  color: #6900FA;
+  color: #6E5AB6;
 }
 
 /* Chefs Table */
@@ -391,7 +402,7 @@ footer p {
 }
 
 .here {
-  color: #6900FA;
+  color: #6E5AB6;
 }
 
 .ct_discover {
@@ -761,7 +772,7 @@ footer p {
 }
 
 .lbb_user_flow {
-  width: 70%;
+  width: 80%;
 }
 
 /* My 80s Mix */
@@ -782,7 +793,7 @@ footer p {
   }
 
   nav ul li {
-    margin-right: 6em;
+    margin-left: 6em;
   }
 
   .navtoggle li:not(:last-child) {
