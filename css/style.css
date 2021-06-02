@@ -308,14 +308,14 @@ nav ul {
 }
 
 .navtoggle, .navtoggle.responsive {
-  position: absolute;
-  right: 40px;
+text-align: right;
 }
 
 .navtoggle li .icon {
   font-size: 20px;
   position: absolute;
   top: 18px;
+  right: 15px;
 }
 
 header .column.nav {
