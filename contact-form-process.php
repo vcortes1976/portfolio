@@ -1,8 +1,8 @@
 <?php
-if (isset($_POST['Email'])) {
+if (isset($_POST['submit'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "vcortes1976@gmail.com.com";
+    $email_to = "vcortes1976@gmail.com";
     $email_subject = "Portfolio Contact Form Message";
 
     function problem($error)
@@ -16,9 +16,9 @@ if (isset($_POST['Email'])) {
 
     // validation expected data exists
     if (
-        !isset($_POST['Name']) ||
-        !isset($_POST['Email']) ||
-        !isset($_POST['Message'])
+        !isset($_POST['name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['message'])
     ) {
         problem('I am sorry, but you will need to complete all required fields to submit your form.'');
     }
