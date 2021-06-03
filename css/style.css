@@ -835,6 +835,16 @@ footer p {
     margin-left: 6em;
   }
 
+  .navtoggle {
+    position: absolute;
+    right: 40px;
+    text-align: left;
+  }
+
+  .navtoggle li .icon {
+    right: auto;
+  }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
