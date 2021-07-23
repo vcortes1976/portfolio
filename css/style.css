@@ -736,11 +736,6 @@ footer p {
   width: 80%;
 }
 
-/* My 80s Mix */
-.challenge span {
-  font-weight: bold;
-}
-
 /* Medium device - 640px plus */
 @media only screen and (min-width: 640px) {
   nav ul {
