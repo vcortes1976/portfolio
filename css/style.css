@@ -607,6 +607,10 @@ footer p {
   width: 90%;
 }
 
+.deliver video {
+  width: 30%;
+}
+
 .ios {
   max-width: 70%;
 }
