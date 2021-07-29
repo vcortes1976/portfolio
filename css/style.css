@@ -534,43 +534,67 @@ footer p {
 }
 
 /* YKC */
-.discover span {
+.intro {
+  padding: 10px;
+}
+
+.intro span {
   font-weight: bold;
 }
 
-.ykchome {
+.material {
+  background-color: #E2E0E5;
+}
+
+.material {
+  padding: 10px;
+}
+
+.material h3 {
+  font-weight: bold;
+}
+
+.material video {
+  width: 30%;
+}
+
+.material .column {
   text-align: center;
 }
 
-.ykchome picture {
-  display: inline-block;
+.discover {
+  padding: 10px;
 }
 
-.ykchome img {
-  width: 70%;
+.discover h3 {
+  font-weight: bold;
+}
+
+.discover picture {
+  display: inline-block;
+  text-align: center;
 }
 
 .define {
-  background-color: #E2E0E5;
   padding: 10px;
+}
+
+.define h3 {
+  font-weight: bold;
 }
 
 .define picture {
   display: inline-block;
   text-align: center;
+  padding-top: 20px;
 }
 
-.define img {
-  width: 90%;
-}
-
-.mockups {
-  display: inline-block;
-  text-align: center;
-}
-
-.develop .column {
+.develop {
   padding: 10px;
+}
+
+.develop h3 {
+  font-weight: bold;
 }
 
 .develop span {
@@ -580,10 +604,6 @@ footer p {
 .develop picture {
   display: inline-block;
   text-align: center;
-}
-
-.develop img {
-  max-width: 90%;
 }
 
 .line {
@@ -603,16 +623,8 @@ footer p {
   padding: 20px 20px;
 }
 
-.deliver img {
-  width: 90%;
-}
-
-.deliver video {
-  width: 30%;
-}
-
-.ios {
-  max-width: 70%;
+.deliver span{
+  font-weight: bold;
 }
 
 .deliver h3 {
@@ -631,8 +643,22 @@ footer p {
   width: 100%;
 }
 
+.ykcstyle {
+  background-color: #E2E0E5;
+}
+
 .ykcstyle h3 {
   font-weight: bold;
+}
+
+.ykcstyle .row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ykcstyle .column {
+  text-align: center;
+  padding: 20px 20px;
 }
 
 /* $ave */
@@ -855,19 +881,15 @@ footer p {
   }
 
   /* YKC */
-  .define img {
-    width: 80%;
-  }
 
-  .develop img {
-    max-width: 70%;
+  .intro .col-md-4 {
+    padding-left: 20px;
   }
 
   .deliver p {
     font-size: 0.875em;
   }
 
-  /* $ave */
   /* portfolio */
   .myweb .col-md-6 {
     padding-left: 0;
@@ -886,9 +908,6 @@ footer p {
 
   [class*="col-"] {
     float: left;
-    margin-top: -16px;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 
   .button {
@@ -941,13 +960,6 @@ footer p {
   }
 
   /*YKC*/
-  .define img {
-    max-width: 70%;
-  }
-
-  .develop img {
-    max-width: 60%;
-  }
 
   .ios {
     max-width: 50%;
@@ -1006,9 +1018,6 @@ footer p {
   }
 
   /*YKC*/
-  .develop img {
-    max-width: 50%;
-  }
 
   .deliver img {
     max-width: 80%;
