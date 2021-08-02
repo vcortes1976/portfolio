@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3GKMHRC1FW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GKMHRC1FW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-3GKMHRC1FW');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-3GKMHRC1FW');
+  </script>
   <meta charset="utf-8">
   <title>My Web Portfolio</title>
   <link href="img/favicon/favicon.ico" rel="shortcut icon">
@@ -61,39 +64,48 @@
         </div>
         <div class="row myweb">
           <div class="column col-md-6">
-            <p><span>My Web Portfolio</span> is a case study which showcases how I built my responsive web portfolio using basic HTML, CSS and JS which I have been learning the past 10 weeks.</p>
+            <p><span>My Web Portfolio</span> is a case study which showcases how I built my responsive web portfolio using basic HTML, CSS and JS which I learnt over a period of 10 weeks.</p>
           </div>
           <div class="column col-md-6">
             <p><span>Project duration:</span> Approximately 10 weeks.</p>
             <p><span>Tools:</span> Sketch, Atom, GitHub Desktop, GitHub, Chrome Inspector.</p>
           </div>
         </div>
-        <div class="row context">
-          <div class="column">
-            <h2>CONTEXT & CHALLENGE</h2>
-            <p>Over the last 10 months I’ve been retraining to be a UI/UX designer at CareerFoundry. I decided to take the plunge and challenge myself by completing the course in frontend development for designers by learning HTML, CSS and
-              JavaScript with no prior experience.</p>
-            <p>I needed a web portfolio to showcase my work to potential employers so I wanted to learn how to build one.
-            </p>
-            <p>I wanted to understand basic HTML, CSS and JS so that I can communicate with developers more efficiently and understand the constraints a frontend developer would come across in the designs we produce.</p>
-            <p>I also have plans to design and build a website for the Yoga Kind Collective which I co-founded, so the ability to work independently on a project like this is also possible.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <h2>SOLUTION</h2>
-            <div class="column primary">
-              <a href="https://github.com/vcortes1976/Portfolio-Site-Veronica-Cortes" class="button" target="_blank">VIEW SOURCE CODE ON GITHUB</a>
+
+        <div class="section context">
+          <div class="container">
+            <div class="row">
+              <h2>CONTEXT & CHALLENGE</h2>
             </div>
-            <video controls>
-              <source src="files/video_portfolio.mp4" type="video/mp4">
-            </video>
-            <div class="column primary">
-              <a href="files/case_study_portfolio.pdf" class="button" target="_blank">VIEW FULL CASE STUDY</a>
+            <div class="row">
+              <div class="column">
+                <p>In 2020 I left my career in events to focus on retraining in UI/UX design at CareerFoundry. I decided to take the plunge and challenge myself by completing the course in frontend development for designers by learning HTML, CSS and
+                  JavaScript with no prior experience.</p>
+                <p>I needed a web portfolio to showcase my work to potential employers so I wanted to learn how to build one.
+                </p>
+                <p>I wanted to understand basic HTML, CSS and JS so that I can communicate with developers more efficiently and understand the constraints a frontend developer would come across in the designs we produce.</p>
+                <p>I also have plans to design and build a website for the Yoga Kind Collective which I co-founded, so the ability to work independently on a project like this is also possible.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row solution">
+        <div class="column">
+          <h2>SOLUTION</h2>
+          <div class="column primary">
+            <a href="https://github.com/vcortes1976/Portfolio-Site-Veronica-Cortes" class="button" target="_blank">VIEW SOURCE CODE ON GITHUB</a>
+          </div>
+          <video controls>
+            <source src="files/video_portfolio.mp4" type="video/mp4">
+          </video>
+          <div class="column primary">
+            <a href="files/case_study_portfolio.pdf" class="button" target="_blank">VIEW FULL CASE STUDY</a>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </main>
 

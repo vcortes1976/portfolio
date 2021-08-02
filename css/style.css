@@ -280,7 +280,7 @@ nav ul {
 }
 
 .navtoggle, .navtoggle.responsive {
-text-align: right;
+  text-align: right;
 }
 
 .navtoggle li .icon {
@@ -591,6 +591,7 @@ footer p {
   display: inline-block;
   text-align: center;
   padding-top: 20px;
+  margin-top: 30px;
 }
 
 .develop {
@@ -627,7 +628,7 @@ footer p {
   padding: 20px 20px;
 }
 
-.deliver span{
+.deliver span {
   font-weight: bold;
 }
 
@@ -732,17 +733,17 @@ footer p {
 }
 
 /* My Web Portfolio */
+.overview h2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
 .myweb span {
   font-weight: bold;
 }
 
 .myweb {
   margin-bottom: 50px;
-}
-
-.overview h2 {
-  margin-top: 30px;
-  margin-bottom: 0;
 }
 
 .context {
@@ -752,8 +753,8 @@ footer p {
   margin-bottom: 50px;
 }
 
-.context h2 {
-  text-align: center;
+.solution h2 {
+  margin: 0 20px;
 }
 
 /*Less But More*/
@@ -885,7 +886,6 @@ footer p {
   }
 
   /* YKC */
-
   .intro .col-md-4 {
     padding-left: 20px;
   }
@@ -964,7 +964,6 @@ footer p {
   }
 
   /*YKC*/
-
   .ios {
     max-width: 50%;
   }
@@ -1022,7 +1021,6 @@ footer p {
   }
 
   /*YKC*/
-
   .deliver img {
     max-width: 80%;
   }
