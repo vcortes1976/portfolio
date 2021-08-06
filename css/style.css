@@ -371,19 +371,11 @@ footer p {
   color: #6E5AB6;
 }
 
-.ct_discover {
-  margin-top: -50px;
-}
-
-.ct_define span {
-  font-weight: bold;
-}
-
-.ct_develop {
-  background-color: hsla(240, 1%, 36%, 0.2);
-  display: block;
-  margin-left: 15px;
-  margin-right: 15px;
+.quote {
+  background-color: #460218;
+  color: #FFFFFF;
+  padding: 100px 20px 100px 20px;
+  text-align: center;
 }
 
 .login-home {
